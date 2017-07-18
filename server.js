@@ -59,24 +59,21 @@ app.post('/api/books', function (req, res) {
   var newBook = new db.Book({
     title: req.body.title,
     image: req.body.image,
-    releaseDate: req.body.releaseDate,
+    releaseDate: req.body.releaseDate
   });
   // find the author from req.body
   db.Author.findOne({name: req.body.author}, function(err, author){
     if (err) {
       return console.log(err);
     }
-    // add this author to the book
-    newBook.author = author;
-    // save newBook to database
-    newBook.save(function(err, book){
-      if (err) {
-        return console.log("save error: " + err);
-      }
-      console.log("saved ", book.title);
-      // send back the book!
-      res.json(book);
-    });
+    // if that author doesn't exist yet, create a new one
+    if (author === null) {
+      db.Author.create({name:req.body.author, alive:true}, function(err, newAuthor) {
+        createBookWithAuthorAndRespondTo(newBook, newAuthor, res);
+      });
+    } else {
+      createBookWithAuthorAndRespondTo(newBook, author, res);
+    }
   });
 });
 
@@ -84,9 +81,29 @@ app.post('/api/books', function (req, res) {
 app.post('/api/books/:book_id/characters', function (req, res) {
   db.Book.findById(req.params.book_id, function (err, book) {
     if (err) return console.log(err);
-
+    if (!book) return console.log('book', book, 'not found!');
+    db.Book.populate(book, {path: 'author'}, function (err, book) {
+      if (err) return console.log(err);
+      book.characters.push(req.body); // add this char to array
+      book.save();
+      res.status(201).json(book);
+    })
   })
 });
+
+function createBookWithAuthorAndRespondTo(book, author, res) {
+  // add this author to the book
+  book.author = author;
+  // save newBook to database
+  book.save(function(err, book){
+    if (err) {
+      return console.log("save error: " + err);
+    }
+    console.log("saved ", book.title);
+    // send back the book!
+    res.json(book);
+  });
+}
 
 
 // delete book
