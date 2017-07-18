@@ -80,6 +80,14 @@ app.post('/api/books', function (req, res) {
   });
 });
 
+//post new character
+app.post('/api/books/:book_id/characters', function (req, res) {
+  db.Book.findById(req.params.book_id, function (err, book) {
+    if (err) return console.log(err);
+
+  })
+});
+
 
 // delete book
 app.delete('/api/books/:id', function (req, res) {
