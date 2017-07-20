@@ -1,12 +1,14 @@
 console.log("Sanity Check: JS is working!");
-var template;
 var $booksList;
 var allBooks = [];
 
 $(document).ready(function(){
 
   $booksList = $('#bookTarget');
+<<<<<<< HEAD
+=======
 
+>>>>>>> solution-sprint-2
   $.ajax({
     method: 'GET',
     url: '/api/books',
@@ -26,6 +28,7 @@ $(document).ready(function(){
   });
 
   $booksList.on('click', '.deleteBtn', function() {
+    console.log('clicked delete button to', '/api/books/'+$(this).attr('data-id'));
     $.ajax({
       method: 'DELETE',
       url: '/api/books/'+$(this).attr('data-id'),
@@ -49,6 +52,16 @@ $(document).ready(function(){
 
 });
 
+<<<<<<< HEAD
+function getBookHtml(book) {
+  console.log('book is', book);
+  return `<hr>
+          <p>
+            <b>${book.title}</b>
+            by ${book.author.name}
+            <button type="button" name="button" class="deleteBtn btn btn-danger pull-right" data-id=${book._id}>Delete</button>
+          </p>`;
+=======
 function getCharacterHtml(_book_id, character) {
   return `${character.name} <button class="deleteCharacter btn btn-danger" data-bookid=${_book_id} data-charid=${character._id}><b>x</b></button>`;
 }
@@ -80,11 +93,16 @@ function getBookHtml(book) {
             <button type="submit" class="btn btn-default">Add character</button>
           </form>
           `;
+>>>>>>> solution-sprint-2
 }
 
 function getAllBooksHtml(books) {
   return books.map(getBookHtml).join("");
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> solution-sprint-2
 // helper function to render all posts to view
 // note: we empty and re-render the collection each time our post data changes
 function render () {
@@ -115,13 +133,18 @@ function newBookSuccess(json) {
 }
 
 function newBookError() {
+<<<<<<< HEAD
+  console.log('newbook error!');
+=======
   console.log("new book error!");
+>>>>>>> solution-sprint-2
 }
 
 function deleteBookSuccess(json) {
   var book = json;
+  console.log(json);
   var bookId = book._id;
-
+  console.log('delete book', bookId);
   // find the book with the correct ID and remove it from our allBooks array
   for(var index = 0; index < allBooks.length; index++) {
     if(allBooks[index]._id === bookId) {
@@ -133,6 +156,9 @@ function deleteBookSuccess(json) {
 }
 
 function deleteBookError() {
+<<<<<<< HEAD
+  console.log('deletebook error!');
+=======
   console.log("book deleting error!");
 }
 
@@ -152,4 +178,5 @@ function newCharacterSuccess(json) {
 
 function newCharacterError() {
   console.log('adding new character error!');
+>>>>>>> solution-sprint-2
 }

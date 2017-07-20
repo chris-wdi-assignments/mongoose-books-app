@@ -1,0 +1,395 @@
+*   [1;34m01ac4bd[m - [1;36mThu, 20 Jul 2017 08:19:23 -0700[m [1;32m(76 seconds ago)[m[1;33m (HEAD -> master, origin/master)[m
+[31m|[m[32m\[m            [37mmerged with solution sprint 2[m [2;37m- Christopher Fujino[m
+[31m|[m *   [1;34m7db2c58[m - [1;36mTue, 18 Jul 2017 14:50:53 -0700[m [1;32m(2 days ago)[m[1;33m (solution-sprint-2)[m
+[31m|[m [33m|[m[34m\[m            [37madded: new character post implemented[m [2;37m- Christopher Fujino[m
+[31m|[m [33m|[m * [1;34m65f874c[m - [1;36mTue, 18 Jul 2017 14:17:19 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[31m|[m [33m|[m [34m|[m           [37madds the author find/create on the POST book rout[m [2;37m- cofauver[m
+[31m|[m * [34m|[m [1;34me872867[m - [1;36mTue, 18 Jul 2017 14:19:35 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[31m|[m [34m|[m [34m|[m           [37madded: unfinished post new character code[m [2;37m- Christopher Fujino[m
+[31m|[m * [34m|[m [1;34m2702302[m - [1;36mTue, 18 Jul 2017 14:14:37 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[31m|[m [34m|[m[34m/[m            [37madded: character schema[m [2;37m- Christopher Fujino[m
+[31m|[m * [1;34m12ba329[m - [1;36mFri, 10 Feb 2017 09:06:57 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[31m|[m [34m|[m           [37medit spr2 solns to include start of spr3[m [2;37m- Michelle Ferreirae[m
+[31m|[m * [1;34m457b68a[m - [1;36mThu, 9 Feb 2017 12:24:30 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[31m|[m [34m|[m           [37mremove handlebars[m [2;37m- Michelle Ferreirae[m
+[31m|[m * [1;34mfd8781d[m - [1;36mWed, 30 Mar 2016 13:15:37 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m           [37mmerge[m [2;37m- Juliana[m
+[31m|[m * [1;34m19b9230[m - [1;36mWed, 30 Mar 2016 11:41:43 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m           [37mmerging readme[m [2;37m- Juliana[m
+[31m|[m * [1;34mfcb9628[m - [1;36mWed, 30 Mar 2016 11:39:10 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m           [37mchanged to just author.name[m [2;37m- Juliana[m
+[31m|[m * [1;34ma8de315[m - [1;36mWed, 30 Mar 2016 09:39:10 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m           [37mremove character input[m [2;37m- Juliana[m
+[31m|[m *   [1;34mfbec0be[m - [1;36mWed, 30 Mar 2016 01:16:52 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [35m|[m[36m\[m            [37mmerge sprint 2 doc into solution[m [2;37m- bgveenstra[m
+[31m|[m [35m|[m * [1;34m14f2ea3[m - [1;36mWed, 30 Mar 2016 01:14:27 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m           [37msprint 2 docs with a few guesses[m [2;37m- bgveenstra[m
+[31m|[m [35m|[m * [1;34m0630947[m - [1;36mTue, 29 Mar 2016 23:50:35 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m           [37mmulti-line if[m [2;37m- bgveenstra[m
+[31m|[m [35m|[m * [1;34m309df9e[m - [1;36mTue, 29 Mar 2016 23:06:33 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m           [37madd sprint 2 readme[m [2;37m- bgveenstra[m
+[31m|[m [35m|[m * [1;34mc52937b[m - [1;36mWed, 30 Mar 2016 00:32:52 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m           [37mremove reference to character model until next sprint[m [2;37m- bgveenstra[m
+[31m|[m * [36m|[m [1;34ma0df9f5[m - [1;36mWed, 30 Mar 2016 01:10:13 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m           [37msolution sprint 2[m [2;37m- bgveenstra[m
+[31m|[m * [36m|[m [1;34m85d7706[m - [1;36mTue, 29 Mar 2016 23:50:35 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m           [37mmulti-line if[m [2;37m- bgveenstra[m
+[31m|[m * [36m|[m [1;34ma4f638f[m - [1;36mTue, 29 Mar 2016 23:06:33 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [36m|[m[36m/[m            [37madd sprint 2 readme[m [2;37m- bgveenstra[m
+[31m|[m * [1;34mefce467[m - [1;36mTue, 29 Mar 2016 19:54:48 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [36m|[m           [37msprint-A to sprint-1[m [2;37m- tgaff[m
+[31m|[m * [1;34m7c2f358[m - [1;36mTue, 29 Mar 2016 19:45:02 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [36m|[m           [37mfetch readme and docs from master[m [2;37m- tgaff[m
+* [36m|[m [1;34m33bee0d[m - [1;36mTue, 18 Jul 2017 13:59:53 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: broken post code[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m9cc0f76[m - [1;36mTue, 18 Jul 2017 12:06:19 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: author name now renders correctly[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m2ff181f[m - [1;36mTue, 18 Jul 2017 11:39:03 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mcode cleanup[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m4e35b6e[m - [1;36mTue, 18 Jul 2017 11:38:25 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mchanged: seed.js now creates author documents in addition to book docs[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m777ce21[m - [1;36mTue, 18 Jul 2017 10:54:14 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mchanged: BookSchema now references our new AuthorSchema[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m9f01ad0[m - [1;36mTue, 18 Jul 2017 10:30:37 -0700[m [1;32m(2 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: Author schema[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34mb13e1fb[m - [1;36mMon, 17 Jul 2017 16:48:16 -0700[m [1;32m(3 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mcleanup[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m051087b[m - [1;36mMon, 17 Jul 2017 14:08:03 -0700[m [1;32m(3 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mchanged: server code to now use mongoose[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34ma977a50[m - [1;36mMon, 17 Jul 2017 12:19:40 -0700[m [1;32m(3 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: a new schema for books[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m9514040[m - [1;36mMon, 17 Jul 2017 12:19:08 -0700[m [1;32m(3 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: all dependencies from package.json[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34mf5f6b25[m - [1;36mMon, 17 Jul 2017 12:16:26 -0700[m [1;32m(3 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: mongoose dependency[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34m73930b6[m - [1;36mMon, 17 Jul 2017 12:15:05 -0700[m [1;32m(3 days ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madded: package-lock[m [2;37m- Christopher Fujino[m
+* [36m|[m [1;34mff7a5f6[m - [1;36mTue, 11 Apr 2017 10:48:39 -0700[m [1;32m(3 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mfix some bugs[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34m4cb6017[m - [1;36mTue, 11 Apr 2017 09:54:40 -0700[m [1;32m(3 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting, introduce bug[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34m8b2043c[m - [1;36mTue, 11 Apr 2017 09:51:40 -0700[m [1;32m(3 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34me518ac2[m - [1;36mTue, 11 Apr 2017 09:50:08 -0700[m [1;32m(3 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34m699cc20[m - [1;36mTue, 11 Apr 2017 09:42:11 -0700[m [1;32m(3 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34m8f0f732[m - [1;36mTue, 11 Apr 2017 09:20:45 -0700[m [1;32m(3 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34mfb99a7f[m - [1;36mFri, 10 Feb 2017 09:09:22 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madd instructions about cloning solution-sprint-2 for spr3[m [2;37m- Michelle Ferreirae[m
+* [36m|[m [1;34me3370cf[m - [1;36mThu, 9 Feb 2017 13:14:40 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mClean up sprint 2 docs[m [2;37m- Michelle Ferreirae[m
+* [36m|[m [1;34mfdb365b[m - [1;36mThu, 9 Feb 2017 13:10:52 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mClean up sprint 1[m [2;37m- Michelle Ferreirae[m
+* [36m|[m [1;34m1168af0[m - [1;36mThu, 9 Feb 2017 12:00:14 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mRemove handlebars and robomongo from directions[m [2;37m- Michelle Ferreirae[m
+* [36m|[m   [1;34m26347d0[m - [1;36mWed, 8 Feb 2017 14:19:42 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[1;31m|[m[1;32m\[m [36m\[m            [37mMerge pull request #14 from SF-WDI-LABS/no-handlebars[m [2;37m- Nathan Allen[m
+[1;31m|[m * [36m|[m [1;34mfb8e98a[m - [1;36mWed, 8 Feb 2017 14:14:00 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[1;31m|[m [1;32m|[m [36m|[m           [37mremove rocket function[m [2;37m- Michelle Ferreirae[m
+[1;31m|[m * [36m|[m [1;34m47cd602[m - [1;36mWed, 8 Feb 2017 12:21:41 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[1;31m|[m [1;32m|[m [36m|[m           [37mremove extra newline[m [2;37m- Michelle Ferreirae[m
+[1;31m|[m * [36m|[m [1;34m0bbc6f0[m - [1;36mWed, 8 Feb 2017 12:14:26 -0800[m [1;32m(5 months ago)[m[1;33m[m
+[1;31m|[m[1;31m/[m [36m/[m            [37mRemove handlebars[m [2;37m- Michelle Ferreirae[m
+* [36m|[m [1;34mb6ae2cd[m - [1;36mTue, 13 Dec 2016 09:43:50 -0800[m [1;32m(7 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37mfix delete in starter code (book UUID problem)[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34ma58b133[m - [1;36mTue, 13 Dec 2016 09:34:19 -0800[m [1;32m(7 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37mindentation, comment[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34meb6c4ae[m - [1;36mSun, 18 Sep 2016 13:00:23 -0700[m [1;32m(10 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37madds note about solution branches[m [2;37m- Ilias Tsangaris[m
+* [36m|[m   [1;34m5b6ccf2[m - [1;36mSun, 18 Sep 2016 12:56:42 -0700[m [1;32m(10 months ago)[m[1;33m[m
+[1;33m|[m[1;34m\[m [36m\[m            [37madds deliverables[m [2;37m- Ilias Tsangaris[m
+[1;33m|[m * [36m|[m [1;34mdaaf165[m - [1;36mTue, 24 May 2016 10:39:22 -0700[m [1;32m(1 year, 2 months ago)[m[1;33m[m
+[1;33m|[m [1;34m|[m [36m|[m           [37msingularizes books[m [2;37m- Ilias Tsangaris[m
+[1;33m|[m * [36m|[m [1;34mb28c6d8[m - [1;36mTue, 24 May 2016 10:39:02 -0700[m [1;32m(1 year, 2 months ago)[m[1;33m[m
+[1;33m|[m [1;34m|[m [36m|[m           [37mchanges lab to app[m [2;37m- Ilias Tsangaris[m
+[1;33m|[m * [36m|[m [1;34m0d94c23[m - [1;36mTue, 24 May 2016 10:38:41 -0700[m [1;32m(1 year, 2 months ago)[m[1;33m[m
+[1;33m|[m [1;34m|[m [36m|[m           [37mchanges library to books[m [2;37m- Ilias Tsangaris[m
+[1;33m|[m * [36m|[m [1;34md6bf604[m - [1;36mTue, 24 May 2016 10:37:53 -0700[m [1;32m(1 year, 2 months ago)[m[1;33m[m
+[1;33m|[m [1;34m|[m [36m|[m           [37mupdates title and description[m [2;37m- Ilias Tsangaris[m
+[1;33m|[m * [36m|[m [1;34m30ecb00[m - [1;36mTue, 24 May 2016 10:26:59 -0700[m [1;32m(1 year, 2 months ago)[m[1;33m[m
+[1;33m|[m [1;34m|[m [36m|[m           [37mimproves readme readability[m [2;37m- Ilias Tsangaris[m
+[1;33m|[m * [36m|[m [1;34ma69e3b5[m - [1;36mTue, 24 May 2016 10:18:19 -0700[m [1;32m(1 year, 2 months ago)[m[1;33m[m
+[1;33m|[m [1;34m|[m [36m|[m           [37mtitle[m [2;37m- Ilias Tsangaris[m
+* [1;34m|[m [36m|[m   [1;34md8bfe04[m - [1;36mSun, 18 Sep 2016 12:51:09 -0700[m [1;32m(10 months ago)[m[1;33m[m
+[1;35m|[m[1;36m\[m [1;34m\[m [36m\[m            [37mMerge pull request #11 from sf-wdi-31/master[m [2;37m- Ilias Tsangaris[m
+[1;35m|[m * [1;34m|[m [36m|[m [1;34md514e4f[m - [1;36mWed, 31 Aug 2016 08:46:33 -0700[m [1;32m(11 months ago)[m[1;33m[m
+[1;35m|[m [1;36m|[m [1;34m|[m [36m|[m           [37mreformats sprint 1 example[m [2;37m- cofauver[m
+[1;35m|[m * [1;34m|[m [36m|[m [1;34m923656a[m - [1;36mWed, 31 Aug 2016 08:43:38 -0700[m [1;32m(11 months ago)[m[1;33m[m
+[1;35m|[m [1;34m|[m[1;34m/[m [36m/[m            [37madds put method in server.js and small adjustments to instructions[m [2;37m- cofauver[m
+* [1;34m|[m [36m|[m [1;34m3249e01[m - [1;36mTue, 30 Aug 2016 12:31:23 -0700[m [1;32m(11 months ago)[m[1;33m[m
+[1;34m|[m[1;34m/[m [36m/[m            [37menlarge sprint titles[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34m8bb58db[m - [1;36mThu, 31 Mar 2016 12:14:32 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m [36m|[m           [37mUpdate sprint2.md[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34m1677c61[m - [1;36mThu, 31 Mar 2016 11:56:40 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m [36m|[m           [37mUpdate sprint2.md[m [2;37m- Brianna Veenstra[m
+* [36m|[m [1;34mce5e8c5[m - [1;36mThu, 31 Mar 2016 10:10:01 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m [36m|[m           [37mmod sprint3 doc[m [2;37m- Juliana[m
+* [36m|[m [1;34m9e5357c[m - [1;36mThu, 31 Mar 2016 10:09:06 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m [36m|[m           [37mlink sprint3[m [2;37m- Juliana[m
+* [36m|[m [1;34m312aa24[m - [1;36mThu, 31 Mar 2016 10:07:40 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m [36m|[m           [37mlink sprint3[m [2;37m- Juliana[m
+* [36m|[m   [1;34mad48e32[m - [1;36mThu, 31 Mar 2016 10:05:09 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m[32m\[m [36m\[m            [37mMerge branch 'master' of https://github.com/SF-WDI-LABS/mongoose-books-app[m [2;37m- Juliana[m
+[31m|[m * [36m|[m [1;34m7d0dbca[m - [1;36mWed, 30 Mar 2016 15:56:10 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [32m|[m [36m|[m           [37mfixing readme[m [2;37m- Juliana[m
+[31m|[m * [36m|[m [1;34m0f76942[m - [1;36mWed, 30 Mar 2016 13:10:08 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [32m|[m [36m|[m           [37mfix numbering[m [2;37m- Brianna Veenstra[m
+* [32m|[m [36m|[m [1;34me2cfe3d[m - [1;36mThu, 31 Mar 2016 10:05:03 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[32m|[m[32m/[m [36m/[m            [37mupdating sprint3 doc[m [2;37m- Juliana[m
+* [36m|[m [1;34m6a99491[m - [1;36mWed, 30 Mar 2016 12:57:43 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[32m|[m [36m|[m           [37mupdate readme[m [2;37m- Juliana[m
+* [36m|[m   [1;34mf771c28[m - [1;36mWed, 30 Mar 2016 12:44:15 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[33m|[m[34m\[m [36m\[m            [37mMerge branch 'master' of https://github.com/SF-WDI-LABS/mongoose-books-app[m [2;37m- Juliana[m
+[33m|[m * [36m|[m [1;34m42ca507[m - [1;36mWed, 30 Mar 2016 12:17:31 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[33m|[m [34m|[m [36m|[m           [37mfile name comments[m [2;37m- Brianna Veenstra[m
+* [34m|[m [36m|[m [1;34m55af116[m - [1;36mWed, 30 Mar 2016 12:44:10 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m[34m/[m [36m/[m            [37mcomment out sprint 3[m [2;37m- Juliana[m
+* [36m|[m [1;34m371b624[m - [1;36mWed, 30 Mar 2016 12:05:01 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37mmerge sprint 1 docs[m [2;37m- Juliana[m
+* [36m|[m [1;34m13fb032[m - [1;36mWed, 30 Mar 2016 10:55:53 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37mlink other sprints (when available)[m [2;37m- tgaff[m
+* [36m|[m [1;34m1e4f20a[m - [1;36mWed, 30 Mar 2016 10:32:23 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37mremove character input[m [2;37m- Juliana[m
+* [36m|[m [1;34mdedebd0[m - [1;36mTue, 29 Mar 2016 20:13:07 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37ms/A/1[m [2;37m- tgaff[m
+* [36m|[m [1;34mccabf23[m - [1;36mTue, 29 Mar 2016 20:11:38 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37madd step numbers[m [2;37m- tgaff[m
+* [36m|[m [1;34m50f0177[m - [1;36mTue, 29 Mar 2016 19:59:43 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37mremove mongoose module[m [2;37m- tgaff[m
+* [36m|[m [1;34m273a5b3[m - [1;36mTue, 29 Mar 2016 19:54:48 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m           [37msprint-A to sprint-1[m [2;37m- tgaff[m
+* [36m|[m   [1;34mdc0d81c[m - [1;36mTue, 29 Mar 2016 19:41:04 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m[36m\[m [36m\[m            [37mMerge pull request #6 from SF-WDI-LABS/docs-intro-mongo[m [2;37m- tgaff[m
+[36m|[m [36m|[m[36m/[m  
+[36m|[m[36m/[m[36m|[m   
+[36m|[m * [1;34m9f09509[m - [1;36mTue, 29 Mar 2016 19:31:34 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting[m [2;37m- tgaff[m
+[36m|[m * [1;34mf7ec274[m - [1;36mTue, 29 Mar 2016 19:29:09 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mno more books model[m [2;37m- tgaff[m
+[36m|[m * [1;34m6b373f8[m - [1;36mTue, 29 Mar 2016 18:58:34 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mbreaking files down to starting point[m [2;37m- tgaff[m
+[36m|[m * [1;34mc67f8f1[m - [1;36mTue, 29 Mar 2016 18:17:36 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mformatting[m [2;37m- tgaff[m
+[36m|[m * [1;34m3ea9d52[m - [1;36mTue, 29 Mar 2016 17:55:29 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mon your own do the rest?[m [2;37m- tgaff[m
+[36m|[m * [1;34ma3a3855[m - [1;36mTue, 29 Mar 2016 17:48:31 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madd sections to the server.js[m [2;37m- tgaff[m
+[36m|[m * [1;34m38dfbc3[m - [1;36mTue, 29 Mar 2016 17:45:08 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mconnecting server.js[m [2;37m- tgaff[m
+[36m|[m * [1;34m2735987[m - [1;36mTue, 29 Mar 2016 17:39:53 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mmore about seeding and modules[m [2;37m- tgaff[m
+[36m|[m * [1;34m2543a3d[m - [1;36mTue, 29 Mar 2016 17:29:55 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mseed gets more robust error messages[m [2;37m- tgaff[m
+[36m|[m * [1;34m0dcf714[m - [1;36mTue, 29 Mar 2016 17:27:36 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37mstart with hardcoded array[m [2;37m- tgaff[m
+[36m|[m * [1;34m4bc4f14[m - [1;36mTue, 29 Mar 2016 17:27:25 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m           [37madd initial round 1 instructions[m [2;37m- tgaff[m
+[36m|[m * [1;34m376246a[m - [1;36mTue, 29 Mar 2016 17:26:44 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m[36m/[m            [37mreset README.md[m [2;37m- tgaff[m
+* [1;34m614f78e[m - [1;36mTue, 29 Mar 2016 18:06:21 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m           [37mrelease date[m [2;37m- Juliana[m
+* [1;34mc790ef6[m - [1;36mTue, 29 Mar 2016 18:03:50 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m           [37mrelease date in camel case[m [2;37m- Juliana[m
+* [1;34m99d08c6[m - [1;36mTue, 29 Mar 2016 18:00:15 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m           [37mremove id from seed[m [2;37m- Juliana[m
+*   [1;34m6eb2525[m - [1;36mTue, 29 Mar 2016 17:52:26 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;31m|[m[1;32m\[m            [37mMerge branch 'master' of https://github.com/SF-WDI-LABS/mongoose-books-app[m [2;37m- Juliana[m
+[1;31m|[m *   [1;34mada72de[m - [1;36mTue, 29 Mar 2016 15:13:41 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;31m|[m [1;33m|[m[1;34m\[m            [37mMerge pull request #3 from SF-WDI-LABS/fix_delete[m [2;37m- jlopker[m
+[1;31m|[m [1;33m|[m * [1;34me2ec233[m - [1;36mTue, 29 Mar 2016 15:11:54 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;31m|[m [1;33m|[m [1;34m|[m           [37mpremature-optimization!  switch to a more efficient for loop (allows break)[m [2;37m- tgaff[m
+* [1;33m|[m [1;34m|[m [1;34mf73f00c[m - [1;36mTue, 29 Mar 2016 17:52:10 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;33m|[m[1;33m/[m [1;34m/[m            [37mfix indentation[m [2;37m- Juliana[m
+* [1;34m|[m   [1;34m4d0ccc0[m - [1;36mTue, 29 Mar 2016 15:09:11 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;35m|[m[1;34m\[m [1;34m\[m            [37mMerge pull request #2 from SF-WDI-LABS/fix_delete[m [2;37m- jlopker[m
+[1;35m|[m [1;34m|[m[1;34m/[m  
+[1;35m|[m * [1;34m2cb67f2[m - [1;36mTue, 29 Mar 2016 15:05:06 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;35m|[m [1;36m|[m           [37mfix delete and use simpler forEach for students[m [2;37m- tgaff[m
+* [1;36m|[m [1;34md32daf5[m - [1;36mTue, 29 Mar 2016 14:52:14 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m[1;36m/[m            [37mstyle delete btn[m [2;37m- Juliana[m
+* [1;34md10ab11[m - [1;36mTue, 29 Mar 2016 14:51:20 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m           [37mstyle delete btn[m [2;37m- Juliana[m
+* [1;34m5544d3e[m - [1;36mTue, 29 Mar 2016 14:48:57 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m           [37mfrontend delete not working ;([m [2;37m- Juliana[m
+* [1;34mfbda4e9[m - [1;36mTue, 29 Mar 2016 14:05:59 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m           [37mmoved controllers to server, create now appends new data to handelbars template[m [2;37m- Juliana[m
+* [1;34ma079baf[m - [1;36mTue, 29 Mar 2016 10:01:07 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;36m|[m           [37mcode styling and rewording controllers[m [2;37m- Juliana[m
+*   [1;34mec76198[m - [1;36mTue, 29 Mar 2016 09:18:39 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m[32m\[m            [37mMerge branch 'solution'[m [2;37m- Juliana[m
+[31m|[m * [1;34m302badc[m - [1;36mTue, 29 Mar 2016 09:18:27 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [32m|[m           [37mremove accidental folder[m [2;37m- Juliana[m
+[31m|[m * [1;34m5489dde[m - [1;36mTue, 29 Mar 2016 09:16:35 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [32m|[m           [37madded book model[m [2;37m- Juliana[m
+[31m|[m *   [1;34m7516f06[m - [1;36mMon, 28 Mar 2016 10:08:23 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [33m|[m[34m\[m            [37mmerge readme changes into solution[m [2;37m- Brianna Veenstra[m
+[31m|[m * [34m|[m [1;34m1c07e6f[m - [1;36mMon, 28 Mar 2016 10:05:43 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m [34m|[m           [37majax call displays correctly[m [2;37m- Brianna Veenstra[m
+[31m|[m * [34m|[m [1;34m0b8d8f7[m - [1;36mMon, 28 Mar 2016 10:00:36 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m [34m|[m           [37mfix file names in solution[m [2;37m- Brianna Veenstra[m
+[31m|[m * [34m|[m [1;34m8240a89[m - [1;36mSun, 27 Mar 2016 22:50:37 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [34m|[m [34m|[m           [37mrepo url[m [2;37m- Brianna Veenstra[m
+[31m|[m * [34m|[m   [1;34m8420f1e[m - [1;36mSun, 27 Mar 2016 22:46:41 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[31m|[m [35m|[m[36m\[m [34m\[m            [37mmerge master into solution[m [2;37m- bgveenstra[m
+[31m|[m [35m|[m * [34m|[m [1;34m1b78b28[m - [1;36mTue, 1 Dec 2015 12:28:03 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mfix solution with views dir[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34mecc9827[m - [1;36mTue, 1 Dec 2015 12:10:36 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37muse views directory for html[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34mab111ef[m - [1;36mSat, 28 Nov 2015 18:34:24 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mfix paths in HTML/head to point to public dirs[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m5c58cd6[m - [1;36mSat, 28 Nov 2015 18:32:48 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mmove files to public[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34mc0bf7aa[m - [1;36mSat, 28 Nov 2015 18:32:40 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mserve public[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m08770c5[m - [1;36mSat, 28 Nov 2015 18:30:13 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37msetup server to serve index.html[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m2f13c95[m - [1;36mSat, 28 Nov 2015 18:27:25 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mrender albums to page[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m3d75347[m - [1;36mSat, 28 Nov 2015 18:04:57 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37madd /api/albums route[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m1049bf6[m - [1;36mSat, 28 Nov 2015 18:02:48 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37madd albums seed data[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m8a0ce85[m - [1;36mSat, 28 Nov 2015 18:02:21 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37madd console.logs[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34mec94771[m - [1;36mSat, 28 Nov 2015 18:00:40 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37madd comments to the server.js file[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m09eef52[m - [1;36mSat, 28 Nov 2015 17:58:48 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mcreate and paste server.js[m [2;37m- tgaff[m
+[31m|[m [35m|[m * [34m|[m [1;34m9bc423a[m - [1;36mSat, 28 Nov 2015 17:58:32 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [35m|[m [36m|[m [34m|[m           [37mnpm init && npm install express --save[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m97ad5c6[m - [1;36mTue, 1 Dec 2015 12:28:03 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mfix solution with views dir[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34mb1b8da4[m - [1;36mTue, 1 Dec 2015 12:10:36 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37muse views directory for html[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m0d7a390[m - [1;36mSat, 28 Nov 2015 18:34:24 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mfix paths in HTML/head to point to public dirs[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m7a8c94e[m - [1;36mSat, 28 Nov 2015 18:32:48 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mmove files to public[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m2d3b2a8[m - [1;36mSat, 28 Nov 2015 18:32:40 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mserve public[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m21a6015[m - [1;36mSat, 28 Nov 2015 18:30:13 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37msetup server to serve index.html[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m54b55e1[m - [1;36mSat, 28 Nov 2015 18:27:25 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mrender albums to page[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34ma4a02c5[m - [1;36mSat, 28 Nov 2015 18:04:57 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37madd /api/albums route[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34mb292317[m - [1;36mSat, 28 Nov 2015 18:02:48 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37madd albums seed data[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34mad07f0c[m - [1;36mSat, 28 Nov 2015 18:02:21 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37madd console.logs[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34ma7e9a9f[m - [1;36mSat, 28 Nov 2015 18:00:40 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37madd comments to the server.js file[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34mccc7baa[m - [1;36mSat, 28 Nov 2015 17:58:48 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mcreate and paste server.js[m [2;37m- tgaff[m
+[31m|[m * [36m|[m [34m|[m [1;34m5c72fa9[m - [1;36mSat, 28 Nov 2015 17:58:32 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m [36m|[m [36m|[m [34m|[m           [37mnpm init && npm install express --save[m [2;37m- tgaff[m
+* [36m|[m [36m|[m [34m|[m [1;34ma4aa5ae[m - [1;36mMon, 28 Mar 2016 10:24:35 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m [36m|[m [34m|[m           [37mclarification[m [2;37m- Juliana[m
+* [36m|[m [36m|[m [34m|[m [1;34mfcd0270[m - [1;36mMon, 28 Mar 2016 10:10:36 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[34m|[m [36m|[m[34m_[m[36m|[m[34m/[m            [37madded note about solution[m [2;37m- Juliana[m
+[34m|[m[34m/[m[36m|[m [36m|[m   
+* [36m|[m [36m|[m [1;34md9dd6c7[m - [1;36mMon, 28 Mar 2016 10:05:48 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m [36m|[m           [37madherance to style guide[m [2;37m- Juliana[m
+* [36m|[m [36m|[m [1;34m6c042f3[m - [1;36mMon, 28 Mar 2016 09:58:03 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m [36m|[m           [37mfile names fixed[m [2;37m- Brianna Veenstra[m
+* [36m|[m [36m|[m [1;34m7e4f96d[m - [1;36mSun, 27 Mar 2016 22:56:41 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m [36m|[m           [37mfix numbering around dir structure[m [2;37m- Brianna Veenstra[m
+* [36m|[m [36m|[m [1;34mcfe22e2[m - [1;36mSun, 27 Mar 2016 22:53:14 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[36m|[m [36m|[m [36m|[m           [37mremove my confusing addition[m [2;37m- Brianna Veenstra[m
+* [36m|[m [36m|[m   [1;34m82d415a[m - [1;36mSun, 27 Mar 2016 22:51:24 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;31m|[m[36m\[m [36m\[m [36m\[m            [37mMerge branch 'master' of https://github.com/SF-WDI-LABS/express-intro[m [2;37m- Juliana[m
+[1;31m|[m [36m|[m[36m/[m [36m/[m  
+[1;31m|[m * [36m|[m [1;34m668631f[m - [1;36mSun, 27 Mar 2016 22:39:00 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;31m|[m [1;32m|[m [36m|[m           [37mmore explanation in a few parts of readme[m [2;37m- Brianna Veenstra[m
+[1;31m|[m * [36m|[m [1;34m355ef34[m - [1;36mSun, 27 Mar 2016 17:19:10 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;31m|[m [1;32m|[m [36m|[m           [37mfile and directory names in readme[m [2;37m- Brianna Veenstra[m
+* [1;32m|[m [36m|[m [1;34mcd86cf0[m - [1;36mSun, 27 Mar 2016 22:51:18 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;32m|[m[1;32m/[m [36m/[m            [37mremoved styles[m [2;37m- Juliana[m
+* [36m|[m [1;34m83b06df[m - [1;36mThu, 24 Mar 2016 12:11:28 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37mupdating[m [2;37m- Juliana[m
+* [36m|[m [1;34mc4aff09[m - [1;36mThu, 24 Mar 2016 11:54:38 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37mtypo[m [2;37m- Juliana[m
+* [36m|[m [1;34m1e48374[m - [1;36mThu, 24 Mar 2016 11:41:34 -0700[m [1;32m(1 year, 4 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37mmoved folders to conform to style guide[m [2;37m- Juliana[m
+* [36m|[m [1;34mdfdc504[m - [1;36mWed, 2 Dec 2015 12:29:05 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;32m|[m [36m|[m           [37mmove vendor out of public[m [2;37m- tgaff[m
+* [36m|[m [1;34mc26ecee[m - [1;36mTue, 1 Dec 2015 12:12:03 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[36m|[m[36m/[m            [37mformatting improvements[m [2;37m- tgaff[m
+*   [1;34m0b1b805[m - [1;36mTue, 1 Dec 2015 11:13:39 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;33m|[m[1;34m\[m            [37mMerge pull request #2 from sf-wdi-25/tmg/use_views_dir[m [2;37m- tgaff[m
+[1;33m|[m * [1;34mc1661a0[m - [1;36mSun, 29 Nov 2015 14:09:05 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;33m|[m[1;33m/[m            [37mrevision to use views directory and file tree[m [2;37m- tgaff[m
+*   [1;34me12b72a[m - [1;36mSun, 29 Nov 2015 12:55:09 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;35m|[m[1;36m\[m            [37mMerge pull request #1 from sf-wdi-25/revision[m [2;37m- tgaff[m
+[1;35m|[m * [1;34m22a1446[m - [1;36mSun, 29 Nov 2015 11:47:04 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;35m|[m [1;36m|[m           [37mremove .hbs extension[m [2;37m- nathanallen[m
+[1;35m|[m * [1;34m253932a[m - [1;36mSun, 29 Nov 2015 11:40:07 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;35m|[m [1;36m|[m           [37mtweaks[m [2;37m- nathanallen[m
+[1;35m|[m * [1;34mced424d[m - [1;36mSun, 29 Nov 2015 10:49:03 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;35m|[m[1;35m/[m            [37mformatting json[m [2;37m- nathanallen[m
+* [1;34mc45d137[m - [1;36mSat, 28 Nov 2015 18:35:12 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mminor tweaks and hints after building solution[m [2;37m- tgaff[m
+* [1;34mdd24518[m - [1;36mSat, 28 Nov 2015 18:18:45 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mfix paths for css/js[m [2;37m- tgaff[m
+* [1;34mcc4c502[m - [1;36mSat, 28 Nov 2015 18:14:21 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmore tweaks[m [2;37m- tgaff[m
+* [1;34m8b5ef72[m - [1;36mSat, 28 Nov 2015 17:57:27 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmove base.js to app.js to reduce confusion with node default of base.js for entry point[m [2;37m- tgaff[m
+* [1;34m292f002[m - [1;36mSat, 28 Nov 2015 17:54:52 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madd basic exercise files[m [2;37m- tgaff[m
+* [1;34m4124e01[m - [1;36mSat, 28 Nov 2015 17:52:42 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mremove solution[m [2;37m- tgaff[m
+* [1;34mfa4de74[m - [1;36mSat, 28 Nov 2015 17:52:09 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmake text corrections[m [2;37m- tgaff[m
+* [1;34m7e38d64[m - [1;36mSat, 28 Nov 2015 17:35:55 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mMake adjustments for no templating and wdi25 standard file names[m [2;37m- tgaff[m
+* [1;34m881a2fd[m - [1;36mSat, 28 Nov 2015 17:34:18 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mignore node_modules[m [2;37m- tgaff[m
+* [1;34ma2df359[m - [1;36mMon, 9 Nov 2015 16:22:54 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mimprovement to solution[m [2;37m- Ben Manning[m
+* [1;34m2272da5[m - [1;36mMon, 9 Nov 2015 16:19:25 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mfix links[m [2;37m- Ben Manning[m
+* [1;34m51f135b[m - [1;36mMon, 9 Nov 2015 13:31:12 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmake the solution more fluid[m [2;37m- Ben Manning[m
+* [1;34mc2747d0[m - [1;36mMon, 9 Nov 2015 13:30:19 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmodify the solution folder[m [2;37m- Ben Manning[m
+* [1;34m27e06a7[m - [1;36mMon, 9 Nov 2015 13:28:23 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmodify solutions[m [2;37m- Ben Manning[m
+* [1;34mdde2186[m - [1;36mMon, 9 Nov 2015 13:23:51 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmodify the readme for clarity[m [2;37m- Ben Manning[m
+* [1;34m85348f7[m - [1;36mMon, 9 Nov 2015 13:08:04 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37medit the readme to better reflect the challenges[m [2;37m- Ben Manning[m
+* [1;34mc0b446f[m - [1;36mFri, 6 Nov 2015 13:59:49 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37medit the solutions[m [2;37m- Ben Manning[m
+* [1;34m6ba7d1d[m - [1;36mFri, 6 Nov 2015 13:29:59 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madd more to solutions[m [2;37m- Ben Manning[m
+* [1;34m0202963[m - [1;36mFri, 6 Nov 2015 13:26:36 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madd stuff to solutions[m [2;37m- Ben Manning[m
+* [1;34m6cc94bf[m - [1;36mFri, 6 Nov 2015 13:26:13 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madd solutions things[m [2;37m- Ben Manning[m
+* [1;34m71aa681[m - [1;36mFri, 6 Nov 2015 12:52:50 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mremove extra readme[m [2;37m- Ben Manning[m
+* [1;34m5963c62[m - [1;36mFri, 6 Nov 2015 12:50:22 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmake changes[m [2;37m- Ben Manning[m
+* [1;34mc84eed3[m - [1;36mFri, 6 Nov 2015 12:48:05 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madd to solution[m [2;37m- Ben Manning[m
+* [1;34m62fd4a1[m - [1;36mFri, 6 Nov 2015 12:23:22 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mmake consistent edits[m [2;37m- Ben Manning[m
+* [1;34m9c9b09a[m - [1;36mFri, 6 Nov 2015 12:06:54 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madjust where hbs is needed[m [2;37m- Ben Manning[m
+* [1;34maaed7f8[m - [1;36mFri, 6 Nov 2015 07:16:40 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mstart implementing handlebars[m [2;37m- Ben Manning[m
+* [1;34m815ce7f[m - [1;36mThu, 5 Nov 2015 16:29:04 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mlist of portions to edit[m [2;37m- Ben Manning[m
+* [1;34m737f4c4[m - [1;36mThu, 5 Nov 2015 15:09:36 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37madd solution folder[m [2;37m- Ben Manning[m
+* [1;34md371f9d[m - [1;36mThu, 5 Nov 2015 14:39:17 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[1;36m|[m           [37mfirst line of edits and add logo[m [2;37m- Ben Manning[m
+*   [1;34m796cdba[m - [1;36mThu, 5 Nov 2015 14:37:49 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m[32m\[m            [37minitial addition[m [2;37m- Ben Manning[m
+[31m|[m * [1;34m30246bd[m - [1;36mThu, 5 Nov 2015 14:33:23 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+[31m|[m             [37mfirst commit[m [2;37m- Ben Manning[m
+* [1;34ma45240a[m - [1;36mThu, 5 Nov 2015 14:36:05 -0800[m [1;32m(1 year, 8 months ago)[m[1;33m[m
+            [37mfirst commit[m [2;37m- Ben Manning[m

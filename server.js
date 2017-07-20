@@ -1,13 +1,19 @@
 // server.js
 // SERVER-SIDE JAVASCRIPT
 
+
+/////////////////////////////
+//  SETUP and CONFIGURATION
+/////////////////////////////
+
+const db = require('./models');
+
 //require express in our app
-var express = require('express'),
-  bodyParser = require('body-parser'),
-  db = require('./models');
+const express = require('express'),
+  bodyParser = require('body-parser');
 
 // generate a new express app and call it 'app'
-var app = express();
+const app = express();
 
 // serve static files in public
 app.use(express.static('public'));
@@ -15,13 +21,92 @@ app.use(express.static('public'));
 // body parser config to accept our datatypes
 app.use(bodyParser.urlencoded({ extended: true }));
 
+////////////////////
+//  DATA
+///////////////////
+
+var newBookUUID = 18;
+
+////////////////////
+//  ROUTES
+///////////////////
+
 // define a root route: localhost:3000/
 app.get('/', function (req, res) {
   res.sendFile('views/index.html' , { root : __dirname});
 });
 
-// get all books
+// get all books  re-written, AGAIN!
 app.get('/api/books', function (req, res) {
+<<<<<<< HEAD
+  db.Book.find(function (err, books) {  // find all
+    if (err) {
+      console.log("index error: " + err);
+      res.sendStatus(500);
+    } else {
+      db.Book.populate(books, {
+        path: 'author'
+      }, function (err, docs) {
+        if (err) return console.log(err);
+        res.json(docs);
+      })
+    }
+  });
+});
+
+// get one book, re-written!
+app.get('/api/books/:id', function (req, res) {
+  // find one book by its id
+  db.findById(req.params.id, function (err, book) {
+    if (err) {
+      console.log(err);
+      res.sendStatus(500);
+    } else {
+      db.Book
+      res.json(book);
+    }
+  });
+});
+
+// create new book, re-written!
+app.post('/api/books', function (req, res) {
+  let author = req.body.author
+  console.log('author is', author);
+  db.Author.findOne({name: author}, function (err, author) {
+    let newBook = req.body;
+    if (err) {  // author doesn't exist, let's create
+      db.Author.create({
+        name: author.name,
+        alive: undefined  // we don't know if alive
+      }, function (err, author) {
+        if (err) return console.log(err);
+        newBook.author = author;
+        console.log('Author ' + author.name + ' successfully created.');
+        db.Book.create(newBook, function (err, newBook) {
+          if (err) return console.log(err);
+          res.json(newBook);
+        })
+      });
+    } else {
+      console.log('Author already exists in db');
+      console.log('doc we got is', author);
+      newBook.author = author;  // need to be ref id?
+      db.Book.create(newBook, function (err, newBook) {
+        if (err) return console.log(err);
+        res.json(newBook);
+      })
+    }
+  });
+  /*
+  db.Book.create(req.body, (err, newBook) => {
+    if (err) throw err;
+    res.json(newBook);
+  });
+  */
+});
+
+// delete book, re-written!
+=======
   // find one book by its id
   db.Book.find({})
     .populate('author')
@@ -107,16 +192,14 @@ function createBookWithAuthorAndRespondTo(book, author, res) {
 
 
 // delete book
+>>>>>>> solution-sprint-2
 app.delete('/api/books/:id', function (req, res) {
-  // get book id from url params (`req.params`)
-  console.log(req.params)
-  var bookId = req.params.id;
-
-  db.Book.findOneAndRemove({ _id: bookId }, function (err, deletedBook) {
-    res.json(deletedBook);
+  db.Book.findByIdAndRemove(req.params.id, (err, book) => {
+    if (err) throw err;
+    res.json(book);
   });
 });
 
 app.listen(process.env.PORT || 3000, function () {
-  console.log('Example app listening at http://localhost:3000/');
+  console.log('Book app listening at http://localhost:3000/');
 });
